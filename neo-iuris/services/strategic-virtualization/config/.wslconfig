@@ -1,0 +1,16 @@
+# .wslconfig optimized for Lenovo Yoga 730-13IKB (i5-8250U / 8GB RAM)
+# Strategic Virtualization Logic:
+# - Limit RAM to 50-60% to prevent Windows 11 UI starvation.
+# - Assign 4 CPU cores to allow full multi-threading for AI agents.
+# - Massive Swap file to handle memory overflow during compilation.
+
+[wsl2]
+memory=5GB
+processors=4
+swap=8GB
+guiApplications=true
+debugConsole=false
+pageReporting=true
+localhostForwarding=true
+nestedVirtualization=true
+kernelCommandLine=service.systemd=true

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OfficeApp 
+    xmlns="http://schemas.microsoft.com/office/appforoffice/1.1" 
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+    xsi:type="TaskPaneApp">
+  <Id>dfigueroa-neo-iuris-v8-office</Id>
+  <Version>1.0.0.0</Version>
+  <ProviderName>Neo-Iuris Intelligence</ProviderName>
+  <DefaultLocale>es-MX</DefaultLocale>
+  <DisplayName DefaultValue="Neo-Iuris: Gabinete v8" />
+  <Description DefaultValue="Inteligencia Forense y Regulatoria para dfigueroa.juridico@gmail.com" />
+  <Hosts>
+    <Host Name="Document" />
+    <Host Name="Workbook" />
+  </Hosts>
+  <DefaultSettings>
+    <SourceLocation DefaultValue="http://localhost:3000/office-addin" />
+  </DefaultSettings>
+  <Permissions>ReadWriteDocument</Permissions>
+  <Rules ElementName="PrimaryCommandSurface">
+    <Rule xsi:type="RuleCollection" Mode="And">
+      <Rule xsi:type="RuleMatch" MatchId="Ribbon.Word.Home" />
+    </Rule>
+  </Rules>
+</OfficeApp>

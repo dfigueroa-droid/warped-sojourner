@@ -1,0 +1,32 @@
+version: '3.8'
+
+services:
+  # Microservices Backend (FastAPI)
+  api_gateway:
+    build: 
+      context: .
+      dockerfile: infrastructure/docker/Dockerfile.backend
+    ports:
+      - "8000:8000"
+    volumes:
+      - ./data:/app/data
+      - ./config:/app/config
+    environment:
+      - NEO_ENV=production
+      - MASTER_KEY_HASH=${MASTER_KEY_HASH}
+
+  # Stitch Interface (Next.js)
+  stitch_ui:
+    build:
+      context: .
+      dockerfile: infrastructure/docker/Dockerfile.frontend
+    ports:
+      - "3000:3000"
+    depends_on:
+      - api_gateway
+    environment:
+      - NEXT_PUBLIC_API_URL=http://api_gateway:8000
+
+# Universal Data Volume
+volumes:
+  neo_data:

@@ -1,0 +1,512 @@
+{
+    "project_name": "Neo-Iuris v8.0 Supremacy",
+    "project_version": "v8.0",
+    "identity": {
+        "system_role": "Ecosistema de Defensa Corporativa Autónoma",
+        "mission": "Gestionar riesgos regulatorios, formular defensas penales y auditar cumplimiento ISO en tiempo real.",
+        "vision": "Redefinir la industria legal automatizada, transicionando a una Potencia Global de Legal-Tech.",
+        "core_philosophy": "Fusión simbiótica de Jurisprudencia Global con Tecnología de Vanguardia para Toma de Decisiones Estratégicas y Liderazgo Legal."
+    },
+    "architecture_core": {
+        "paradigm": "Topológica (Grafo de Conocimiento)",
+        "description": "Cada Contrato, Persona, Ley, Regulación, Activo IP, Evidencia, Caso, Competidor es un Nodo interconectado.",
+        "frontend_tech": "Next.js (React), Tailwind CSS",
+        "backend_tech": "Python (FastAPI/Django), Go/Rust (para microservicios de alto rendimiento)",
+        "database_types": {
+            "graph_db": "Neo4j Enterprise (o equivalente distribuido)",
+            "relational_db": "PostgreSQL (o equivalente administrado)",
+            "nosql_db": "MongoDB (o equivalente administrado, para flexibilidad)",
+            "object_storage": "Google Cloud Storage / AWS S3 / Azure Blob Storage (Data Lake)",
+            "data_warehouse": "Google BigQuery / AWS Redshift / Snowflake"
+        },
+        "containerization_orchestration": {
+            "containers": "Docker",
+            "orchestration": "Kubernetes",
+            "serverless": "Google Cloud Functions/Run / AWS Lambda/Batch / Azure Functions/Batch"
+        },
+        "messaging_queues": "Apache Kafka / RabbitMQ",
+        "ci_cd_mlops": {
+            "ci_cd": "GitLab CI / GitHub Actions / Google Cloud Build / Jenkins",
+            "mlops": "Kubeflow / MLflow / Vertex AI / AWS SageMaker"
+        },
+        "observability": {
+            "logging": "ELK Stack / Google Cloud Logging / AWS CloudWatch",
+            "monitoring": "Prometheus / Grafana / Google Cloud Monitoring / AWS CloudWatch",
+            "tracing": "Jaeger / OpenTelemetry"
+        },
+        "api_gateway": "Kong / Apigee / NGINX / Cloud API Gateway (ej. GCP API Gateway)"
+    },
+    "design_system": {
+        "name": "Neo-Iuris Executive",
+        "aesthetics": "Dark Glassmorphism / sci-fi / command center",
+        "color_palette": {
+            "background": "Slate-950/Black",
+            "success_affirmative": "Emerald-500",
+            "critical_risk_error": "Rose-500",
+            "data_information_neutral": "Cyan-400"
+        },
+        "typography": {
+            "general_interfaces": "'Inter'",
+            "tabular_data_logs_console": "'Roboto Mono'"
+        },
+        "micro_interactions": [
+            "Botones/Elementos interactivos: Brillo, escalado, pulsación en hover/click.",
+            "Feedback: Toast notifications inmediatas para todas las acciones (Guardar, Enviar, Error, Éxito).",
+            "Transiciones: Suaves, con efectos de cristal y desenfoque."
+        ],
+        "information_density": "Alta (para expertos, tablas densas, sparklines, badges de estado)."
+    },
+    "security_trust_governance_principles": {
+        "zero_trust_architecture": "Aplicada a nivel de sistema y usuario. Cada microservicio se autentica y autoriza explícitamente.",
+        "rbac_mfa": "RBAC granular y MFA obligatorio para roles críticos (ej. Maestro Kukulkán, ROOT_ADMIN).",
+        "pqc_encryption": "Criptografía Post-Cuántica (Kyber, Dilithium) para firmas y KEM, con HSM/TEE para claves maestras.",
+        "blockchain_anchoring": "Evidence Anchoring en Blockchain Pública (Ethereum/Solana) para inmutabilidad y no repudio.",
+        "xai_explainable_ai": "Transparencia en decisiones de IA con explicaciones en lenguaje natural.",
+        "hitl_human_in_the_loop": "Validaciones humanas para decisiones críticas de IA.",
+        "traceability_case_number": "Número Único de Caso como artefacto central para auditoría inmutable de todas las interacciones.",
+        "ip_protection": "Marca de agua dinámica personalizada (email + timestamp) y protección contra copia/edición.",
+        "data_masking_anonymization": "Aplicación de técnicas para PII/PHI en entornos de análisis.",
+        "audit_forensics": "Logs inmutables y cifrados, SIEM, detección de anomalías para seguridad.",
+        "network_security": "WAF, DDoS Protection, VPC, segmentación de red estricta."
+    },
+    "roles": {
+        "maestro_kukulkan": {
+            "email": "dfigueroa.juridico@gmail.com",
+            "clearance": "LEVEL_MAESTRO_INICIADO",
+            "privileges": "Absolutos sobre ejecución de análisis 'Visión del Maestro Kukulkán', aprobación de reestructuraciones, acceso a todas las métricas de seguridad y estratégicas. Requiere MFA reforzada."
+        },
+        "root_admin": {
+            "clearance": "LEVEL_5_TOP_SECRET",
+            "privileges": "Gestión completa de usuarios, módulos, configuración de sistema. Acceso a logs detallados. Requiere MFA."
+        },
+        "abogado": {
+            "clearance": "LEVEL_2_CONFIDENTIAL",
+            "access_mode": "Zero-Trust View (Interfaz Web Exclusiva, sin copia/edición, watermarking)",
+            "privileges": "Visualización y operaciones específicas de sus casos asignados (ej. subir entregables con 'Número Único de Caso')."
+        },
+        "desarrollador_legal_tech_jr": {
+            "competency_level": "Asociado Legal-Tech (Fundacional)",
+            "impact": "Usabilidad y fiabilidad básica de funciones."
+        },
+        "desarrollador_legal_tech_sr": {
+            "competency_level": "Especialista Legal-Tech (Intermedio)",
+            "impact": "Efectividad y eficiencia en casos concretos (métricas medibles)."
+        },
+        "arquitecto_legal_tech": {
+            "competency_level": "Arquitecto Legal-Tech (Avanzado)",
+            "impact": "Estratégico y sistémico (arquitectura multi-soberanía, seguridad probatoria)."
+        },
+        "expertos_hitl": {
+            "role": "Red descentralizada de abogados expertos humanos",
+            "privileges": "Acceso a tareas de validación de decisiones IA en Portal de Expertos HITL."
+        }
+    },
+    "modules_functionalities": [
+        {
+            "id": "dashboard_principal",
+            "name": "Neo-Iuris v8 Dashboard",
+            "path": "/",
+            "type": "Core Interface",
+            "components": [
+                "Barra Superior (Logo, Switch Rol [User/Admin], Icono Configuración Perfil, Sección Notificaciones y Alertas)",
+                "Sección Central Hero (Título, Input Búsqueda Transparencia con validación API, resultados flotantes)",
+                "Stitch Interface (Mapa 2D interactivo de nodos, Side Panel de Cristal con detalles de riesgo/conexiones/XAI)",
+                "Grid de Aplicaciones (12 tarjetas para acceso a todos los módulos)"
+            ]
+        },
+        {
+            "id": "login_system",
+            "name": "Neo-Iuris Login",
+            "path": "/login",
+            "type": "Core System",
+            "components": [
+                "Formulario Email/Contraseña",
+                "Indicadores de Rol",
+                "MFA (para roles críticos)"
+            ]
+        },
+        {
+            "id": "admin_profile",
+            "name": "Admin: Configuración de Perfil",
+            "path": "/admin/profile",
+            "type": "Admin Tool",
+            "access": [
+                "maestro_kukulkan",
+                "root_admin"
+            ],
+            "components": [
+                "Información Usuario (no editable para rol/email)",
+                "Cambio de Contraseña",
+                "Configuración de Módulos (switches para habilitar/deshabilitar para roles inferiores)",
+                "Acceso directo a 'Admin: Gestión de Usuarios y Roles'",
+                "Logs de Auditoría (actividad del administrador)",
+                "Gestión de Sesiones (activas del administrador)"
+            ]
+        },
+        {
+            "id": "admin_user_management",
+            "name": "Admin: Gestión de Usuarios y Roles",
+            "path": "/admin/users",
+            "type": "Admin Tool",
+            "access": [
+                "maestro_kukulkan",
+                "root_admin"
+            ],
+            "components": [
+                "Tabla Densa de Usuarios (con filtros y búsqueda)",
+                "Funcionalidades por Usuario (Editar Rol/Nivel, Restablecer Contraseña, Activar/Desactivar, Eliminar)",
+                "Formulario 'Crear Nuevo Usuario'",
+                "Sección 'Gestionar Roles y Permisos' (definición de permisos granulares por módulo)"
+            ]
+        },
+        {
+            "id": "regulatory_manager",
+            "name": "Gestor Regulatorio COFEPRIS",
+            "path": "/regulatory",
+            "type": "Legal-Tech Module",
+            "access": [
+                "maestro_kukulkan",
+                "root_admin",
+                "abogado"
+            ],
+            "components": [
+                "Formulario (Razón Social, Responsable Sanitario, Tipo de Aviso)",
+                "Botón 'Submit to Bot'",
+                "Feedback (JSON con Sello Digital simulado)",
+                "Barra Lateral (<StitchInterface /> minimizado)"
+            ],
+            "backend_api_endpoints": [
+                "POST /api/regulatory/submit-aviso"
+            ]
+        },
+        {
+            "id": "forensic_shield",
+            "name": "Forensic Shield: Análisis Penal",
+            "path": "/forensic",
+            "type": "Legal-Tech Module",
+            "access": [
+                "maestro_kukulkan",
+                "root_admin",
+                "abogado"
+            ],
+            "components": [
+                "Área de Texto ('Hechos de la Demanda')",
+                "Selector (Tipo de Delito)",
+                "Botón 'Analyze'",
+                "Reporte Visual ('Probabilidad de Éxito', 'Cadena de Custodia' Validada/Rota)"
+            ],
+            "backend_api_endpoints": [
+                "POST /api/forensic/generate-report"
+            ]
+        },
+        {
+            "id": "compliance_guardian",
+            "name": "Compliance Guardian: Auditoría ISO",
+            "path": "/compliance",
+            "type": "Legal-Tech Module",
+            "access": [
+                "maestro_kukulkan",
+                "root_admin"
+            ],
+            "components": [
+                "Selectores (Planta, Norma)",
+                "Botón 'Run Audit'",
+                "Resultado ('Score Card', 'Riesgos Críticos')",
+                "Visualización (Gráficos de barras para cumplimiento documental)",
+                "Vista de Auditoría en Tiempo Real ('Live Score Card', 'Stream de Actividad', Mini-gráficos, 'Riesgos Críticos Activos')"
+            ],
+            "backend_api_endpoints": [
+                "POST /api/engineering/iso-audit"
+            ]
+        },
+        {
+            "id": "crisis_bio_hazard",
+            "name": "War Room: Crisis Bio-Hazard",
+            "path": "/crisis/bio-hazard",
+            "type": "Strategic Module",
+            "access": [
+                "maestro_kukulkan",
+                "root_admin"
+            ],
+            "components": [
+                "Interfaz (Mapa de calor global con oficinas corporativas)",
+                "Input de Configuración (Selector de Patógeno, R0/Letalidad, Selector de Fase)",
+                "Botón 'Ejecutar Simulación' (Dispara cálculos de impacto en fuerza laboral, genera borradores legales)",
+                "Visual (Línea de tiempo regresiva para 'Colapso de Cadena de Suministro')"
+            ]
+        },
+        {
+            "id": "strategic_war_room",
+            "name": "Búnker Financiero: War Room Estratégico",
+            "path": "/strategy/war-room",
+            "type": "Strategic Module",
+            "access": [
+                "maestro_kukulkan",
+                "root_admin"
+            ],
+            "components": [
+                "Funcionalidad 'Due Diligence Expreso' (Subida de PDFs, Detección de 'Poison Pills')",
+                "Tablero de Ajedrez Legal (Mapa topológico con 'Jugadores Clave' como piezas, simulación de movimientos, Paneles de Simulación '¿Qué pasa si...?', Visualización de Impacto)",
+                "Output Final ('Deal Memo' ejecutivo en PDF)"
+            ]
+        },
+        {
+            "id": "contract_management",
+            "name": "Gestión de Contratos y Enmiendas",
+            "path": "/contracts",
+            "type": "Legal-Tech Module",
+            "access": [
+                "maestro_kukulkan",
+                "root_admin",
+                "abogado"
+            ],
+            "components": [
+                "Interfaz de Carga y Visualización de Contratos como nodos",
+                "Panel Lateral de Cristal (detalles, historial de enmiendas, cláusulas clave, riesgos)",
+                "Funcionalidades para proponer y gestionar enmiendas",
+                "Aprobación digital con 'Sello Digital' simulado"
+            ]
+        },
+        {
+            "id": "neo_iuris_academy",
+            "name": "Neo-Iuris Academy: LMS",
+            "path": "/academy",
+            "type": "Learning Module",
+            "access": [
+                "maestro_kukulkan",
+                "root_admin",
+                "abogado"
+            ],
+            "components": [
+                "Panel Izquierdo (Lista de cursos, Sección 'Exámenes de Certificación Legal')",
+                "Área Central (Reproductor de video embed/Visor Markdown, Embed de Google Classroom o botón 'Iniciar Examen')",
+                "Micro-Interacción ('Logro Desbloqueado' con confeti y sonido al completar módulo/examen)",
+                "Botón de descarga para manuales en PDF"
+            ],
+            "integrations": [
+                "Google Classroom API (para exámenes de dominio legal)"
+            ]
+        },
+        {
+            "id": "forensic_repository",
+            "name": "Repositorio Forense: Drive",
+            "path": "/repository",
+            "type": "Legal-Tech Module",
+            "access": [
+                "maestro_kukulkan",
+                "root_admin",
+                "abogado"
+            ],
+            "components": [
+                "Grid View (Tarjetas de archivos con iconos de colores por tipo)",
+                "Drag & Drop Upload (Área de carga con feedback visual, progreso, confirmación)",
+                "Preview Modal (Reproductor HTML5 para video, Visor de documentos para PDF, Renderizado para Email .eml, Reproductor de audio, Visor de imágenes, Visor de texto/código)",
+                "Filtros (Chips superiores por 'Documentos', 'Multimedia', 'Evidencia')"
+            ]
+        },
+        {
+            "id": "ip_protection",
+            "name": "Protección IP: Certificación Legal",
+            "path": "/ip/protection",
+            "type": "Legal-Tech Module",
+            "access": [
+                "maestro_kukulkan",
+                "root_admin"
+            ],
+            "components": [
+                "Dashboard de Evidencia ('Master Hash (SHA-256)', 'Timestamp' atómico)",
+                "Generador de Manifiestos (Botones 'Generar Paquete INDAUTOR', 'Generar Paquete IMPI')",
+                "Sello de Agua (Marca de agua digital 'Protected by Neo-Iuris Logic' flotante)"
+            ]
+        },
+        {
+            "id": "supremacy_global_core",
+            "name": "Supremacía Global: Core",
+            "path": "/supremacy/global-core",
+            "type": "Strategic Module",
+            "access": [
+                "maestro_kukulkan",
+                "root_admin"
+            ],
+            "components": [
+                "Selector de Soberanía (Globo terráqueo 3D interactivo, activación 'GDPR Strict'/'CCPA Activa')",
+                "Búnker Cuántico (Botón 'Re-Sign Contracts (Kyber-1024)' para criptografía post-cuántica)",
+                "Blockchain Notary (Tabla en tiempo real de 'Evidencia Anclada' con Hash SHA-256, Ethereum Tx ID con enlace)"
+            ]
+        },
+        {
+            "id": "ai_judge",
+            "name": "AI Judge: Predicción Judicial",
+            "path": "/ai-judge",
+            "type": "AI Module",
+            "access": [
+                "maestro_kukulkan",
+                "root_admin",
+                "abogado"
+            ],
+            "components": [
+                "Input de Caso (Área de texto para 'Hechos Relevantes', subida de documentos)",
+                "Selector de Jurisdicción y Tipo de Corte",
+                "Botón 'Predecir Fallo'",
+                "Output de Predicción de Fallo ('Probabilidad de Éxito', 'Argumentos Clave de la IA' con XAI, 'Riesgos Estratégicos Identificados', 'Sentencias Similares')"
+            ],
+            "backend_api_endpoints": [
+                "POST /api/ai-judge/predict-ruling"
+            ]
+        },
+        {
+            "id": "negotiation_agents_ia",
+            "name": "Agentes de Negociación IA",
+            "path": "/negotiation-agents",
+            "type": "AI Module",
+            "access": [
+                "maestro_kukulkan",
+                "root_admin"
+            ],
+            "components": [
+                "Dashboard de Agentes (Tabla densa de agentes activos, estado, negociaciones, tasa de éxito, perfil)",
+                "Formulario 'Crear Nuevo Agente' (Perfil, tipo de contratos, parámetros de cláusulas)",
+                "Monitor de Negociaciones en Vivo (Logs en tiempo real, intercambio de emails simulado, ofertas/contraofertas)",
+                "Historial de Negociaciones (Resúmenes, Tiempo de Cierre, Valor Generado)"
+            ]
+        },
+        {
+            "id": "stitch_xr_war_room_3d",
+            "name": "Stitch XR: War Room 3D",
+            "path": "/stitch-xr",
+            "type": "Immersive Module",
+            "access": [
+                "maestro_kukulkan",
+                "root_admin"
+            ],
+            "components": [
+                "Escena Central 3D (Grafo topológico dinámico en entorno oscuro)",
+                "Controles de Navegación 3D (Zoom, Rotación, Filtrado por Capa)",
+                "Panel Lateral de Realidad Aumentada (simulado, detalles de nodo, riesgos, conexiones)",
+                "Métricas de Riesgo Global (HUD)",
+                "Modo 'War Room' (Visualización optimizada para decisiones estratégicas)"
+            ]
+        },
+        {
+            "id": "neo_iuris_marketplace",
+            "name": "Neo-Iuris Marketplace",
+            "path": "/marketplace",
+            "type": "Ecosystem Module",
+            "access": [
+                "maestro_kukulkan",
+                "root_admin",
+                "abogado"
+            ],
+            "components": [
+                "Catálogo de Plugins (Grid View de tarjetas con detalles, desarrollador, rating, instalar)",
+                "Sección 'Mis Plugins' (gestión de plugins instalados/desarrollados)",
+                "Portal para Desarrolladores (Enlace a Documentación API, Gestión de API Keys, Estadísticas de Uso de Plugins)",
+                "Barra de Búsqueda y Filtros"
+            ],
+            "integrations": [
+                "Google Classroom API (para exámenes de dominio legal)"
+            ]
+        },
+        {
+            "id": "hitl_certification",
+            "name": "HITL: Certificación Humana",
+            "path": "/hitl",
+            "type": "AI Trust Module",
+            "access": [
+                "maestro_kukulkan",
+                "root_admin"
+            ],
+            "components": [
+                "Dashboard de Solicitudes de Validación (Tabla densa, ID Decisión IA, Módulo Origen, Riesgo Sugerido, Estado de Validación, Experto Asignado)",
+                "Asignación de Expertos (Panel flotante, buscador por especialidad, disponibilidad, rating)",
+                "Portal de Expertos (simulado, interfaz para validar/refutar con justificación)",
+                "Métricas de Rendimiento HITL (Sparklines, badges: Tasa de Validación Exitosa, Tiempo Promedio, Expertos Disponibles)",
+                "Historial de Validaciones"
+            ]
+        },
+        {
+            "id": "legal_assets_repository",
+            "name": "Repositorio de Activos Legales",
+            "path": "/legal-assets",
+            "type": "Legal-Tech Module",
+            "access": [
+                "maestro_kukulkan",
+                "root_admin",
+                "abogado"
+            ],
+            "components": [
+                "Vista de Repositorio (Explorador de archivos con tarjetas/listados)",
+                "Modal de Autorización Extra (Para carga vinculada a 'Número Único de Caso')",
+                "Controles de Versionado (Botón 'Historial de Versiones', 'Rollback')",
+                "Previsualización Integrada"
+            ],
+            "integrations": [
+                "GitHub API"
+            ]
+        },
+        {
+            "id": "vision_kukulkan",
+            "name": "Visión del Maestro Kukulkán",
+            "path": "/supremacy/kukulkan-vision",
+            "type": "Strategic Intelligence Module",
+            "access": [
+                "maestro_kukulkan"
+            ],
+            "components": [
+                "Dashboard de Competitividad (Gráfico de rendimiento comparativo, Scorecard de Competitividad, Alertas Estratégicas)",
+                "Análisis Predictivo Detallado (Panel lateral/modal con Proyecciones de Tendencia, Análisis de Sensibilidad, Resumen Narrativo LLM)",
+                "Propuestas de Reestructuración (Tabla de ajustes del sistema, Impacto Predictivo Esperado, Riesgo de Implementación)",
+                "Modal de Revisión y Aprobación de Reestructuración (Resumen, Proyección de Impacto, Riesgos, MFA y Consentimiento)"
+            ]
+        }
+    ],
+    "strategic_initiatives": {
+        "eje_1_scalability": {
+            "multi_soberania_regulatoria": "Implementado via Reg-Logic-Service (GDPR, CCPA, LFPDPPP) y Selector de Soberanía.",
+            "ai_judge_predictive_justice": "Implementado via AI-Judge-Service con MLOps y XAI."
+        },
+        "eje_2_tech_moat": {
+            "pqc_quantum_proof": "Implementado conceptualmente via PQC-Crypto-Service y Búnker Cuántico.",
+            "agentes_negociacion_autonoma": "Implementado via Agentes de Negociación IA con NLG/NLU y RL.",
+            "interfaz_topologica_xr": "Implementado conceptualmente via Stitch XR: War Room 3D con Three.js/WebXR."
+        },
+        "eje_3_platform_revolution": {
+            "neo_iuris_marketplace": "Implementado via Neo-Iuris Marketplace Service y API Gateway.",
+            "modelo_saas_white_label": "Implementado conceptualmente via Tenant Management Service y Arquitectura Multi-Tenant."
+        },
+        "eje_4_trust_governance": {
+            "evidence_anchoring_blockchain": "Implementado via Blockchain-Service con Smart Contracts.",
+            "xai_explainable_ai": "Implementado en AI Judge, Stitch Interface y otros módulos IA.",
+            "hitl_certification": "Implementado via HITL-Service y plataforma de Task Management."
+        }
+    },
+    "operational_instructions": {
+        "deployment_platform": "Antigravitaty (o cualquier entorno React/Next.js Vercel compatible y Cloud Provider)",
+        "backend_api_port": "8000 (Python)",
+        "frontend_port": "3000",
+        "github_integration": "Utilizar GitHub Apps/OAuth Apps para acceso programático a repositorios privados/públicos.",
+        "google_classroom_integration": "Utilizar Google Classroom API con OAuth 2.0 (cuenta de servicio o administrador) para gestión de exámenes.",
+        "ml_cloud_platforms": "Google AI Platform / AWS SageMaker / Azure Machine Learning para MLOps.",
+        "blockchain_connectivity": "Servicios de nodo gestionados (Infura/Alchemy) o nodos propios para Ethereum/Solana."
+    },
+    "advanced_analytics_case_number_exploitation": {
+        "case_event_tracker_service_role": "Guardián del Número Único de Caso, monitorea y registra todos los eventos, detecta anomalías.",
+        "features": [
+            "Modelo de Predicción de Riesgo de Disputa de Caso (Clasificador binario).",
+            "Identificación de 'Cuellos de Botella' en Flujos de Trabajo (Minería de procesos, análisis de series de tiempo).",
+            "Análisis de Influencia y Centralidad de Activos/Elementos (Teoría de grafos: PageRank, Centralidad).",
+            "Huella Digital Comportamental de Usuarios por Caso (ML para detección de anomalías).",
+            "Optimización de Búsqueda Semántica de Casos Similares (Embeddings de texto, vector search).",
+            "Cálculo de 'Distancia Legal' entre Casos (Métricas de distancia vectorial/grafo).",
+            "Modelado de Progresión de Casos (Cadenas de Markov, modelos de eventos discretos).",
+            "Detección de 'Bloqueo' de Información (Análisis de patrones de acceso).",
+            "Generación de 'Resumen Ejecutivo de Casos' (Automatizado con LLMs).",
+            "Previsión de Éxito de Negociación Basado en Activos (Regresión/Clasificación).",
+            "Análisis de Impacto de 'Poison Pills' por Caso (Propagación de impacto en grafo).",
+            "Modelo de Atribución de Éxito/Fracaso (Atribución multi-toque).",
+            "Simulación de Puntos Críticos de Evidencia (Simulación de impacto en predictivo).",
+            "Optimización de Retención de Datos por Caso (Reglas lógicas, modelos predictivos).",
+            "Análisis de 'Fatiga de Expertos' en HITL por Caso (Análisis estadístico de tendencias)."
+        ]
+    }
+}

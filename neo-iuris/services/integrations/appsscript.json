@@ -1,0 +1,27 @@
+{
+    "timeZone": "America/Mexico_City",
+    "dependencies": {},
+    "exceptionLogging": "STACKDRIVER",
+    "oauthScopes": [
+        "https://www.googleapis.com/auth/documents.currentonly",
+        "https://www.googleapis.com/auth/script.container.ui",
+        "https://www.googleapis.com/auth/urlfetch"
+    ],
+    "runtimeVersion": "V8",
+    "addOns": {
+        "common": {
+            "name": "Neo-Iuris v8",
+            "logoUrl": "https://neo-iuris.ai/logo.png",
+            "useLocaleFromApp": true,
+            "homepageTrigger": {
+                "runFunction": "onOpen",
+                "enabled": true
+            }
+        },
+        "docs": {
+            "onFileScopeGrantedTrigger": {
+                "runFunction": "onOpen"
+            }
+        }
+    }
+}

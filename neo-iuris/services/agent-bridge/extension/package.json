@@ -1,0 +1,25 @@
+{
+    "name": "antigravity-bridge",
+    "displayName": "Antigravity Bridge",
+    "description": "Remote Agent Manager Bridge for Android",
+    "version": "0.1.0",
+    "engines": {
+        "vscode": "^1.60.0"
+    },
+    "activationEvents": [
+        "onStartupFinished"
+    ],
+    "main": "./out/extension.js",
+    "contributes": {
+        "commands": [
+            {
+                "command": "antigravityBridge.startServer",
+                "title": "Start Bridge Server"
+            }
+        ]
+    },
+    "dependencies": {
+        "ws": "^8.0.0",
+        "uuid": "^9.0.0"
+    }
+}

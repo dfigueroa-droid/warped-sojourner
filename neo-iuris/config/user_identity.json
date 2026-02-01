@@ -1,0 +1,24 @@
+{
+    "user_profile": {
+        "email": "dfigueroa.juridico@gmail.com",
+        "role": "SUPER_ADMIN",
+        "license_tier": "ENTERPRISE_ARCHITECT_V8",
+        "permissions": [
+            "ACCESS_STITCH_CORE",
+            "ACCESS_OFFICE_ADDIN",
+            "ACCESS_GOOGLE_ADDON",
+            "EXECUTE_SMART_CONTRACTS",
+            "VIEW_FORENSIC_DATA"
+        ]
+    },
+    "environment_bindings": {
+        "stitch_context_id": "STITCH-CTX-9928-DFIG",
+        "office_tenant_id": "MS-TENANT-AUTO-BIND",
+        "google_project_id": "GCP-NEO-IURIS-V8"
+    },
+    "security": {
+        "api_key_hash": "SHA256:e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "mfa_enabled": true,
+        "last_login": "2025-12-17T12:45:00Z"
+    }
+}

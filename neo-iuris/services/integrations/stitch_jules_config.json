@@ -1,0 +1,24 @@
+{
+    "manifest_version": "8.1.0-VISUAL",
+    "display_name": "Jules Neural Bridge",
+    "visual_components": {
+        "icon": "brain-circuit",
+        "theme_color": "#7C3AED"
+    },
+    "capabilities": {
+        "CODE_AUDIT": {
+            "description": "Análisis profundo de código mediante Jules Agent.",
+            "endpoint": "https://neo-iuris-core.local/api/integrations/stitch-jules/bridge/stitch-jules",
+            "visual_widget": "CodeDiffViewer"
+        },
+        "FORENSIC_BIO": {
+            "description": "Consulta de bases de datos químicas de Google.",
+            "endpoint": "https://neo-iuris-core.local/api/integrations/stitch-jules/bridge/stitch-jules",
+            "visual_widget": "Molecule3DViewer"
+        }
+    },
+    "security_handshake": {
+        "protocol": "OAUTH2_MUTUAL",
+        "token_source": "GABINETE_IDENTITY_PROVIDER"
+    }
+}

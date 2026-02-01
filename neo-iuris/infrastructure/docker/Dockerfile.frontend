@@ -1,0 +1,19 @@
+FROM node:18-alpine
+
+WORKDIR /app
+
+# Install dependencies
+COPY interface/neo-iuris-ui/package*.json ./
+RUN npm install
+
+# Copy source code
+COPY interface/neo-iuris-ui/ .
+
+# Build Next.js
+RUN npm run build
+
+# Expose UI Port
+EXPOSE 3000
+
+# Start Production Server
+CMD ["npm", "start"]

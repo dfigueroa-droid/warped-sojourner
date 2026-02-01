@@ -1,0 +1,56 @@
+{
+    "ecosystem_id": "neo-iuris-hybrid-v1",
+    "super_admin": {
+        "email": "dfigueroa.juridico@gmail.com",
+        "role": "GLOBAL_ROOT",
+        "permissions": [
+            "FORENSIC_READ",
+            "FORENSIC_WRITE",
+            "REGULATORY_SUBMIT",
+            "COMPLIANCE_AUDIT",
+            "SYSTEM_CONFIG"
+        ]
+    },
+    "identity_providers": {
+        "google_workspace": {
+            "status": "active",
+            "domains": [
+                "gmail.com"
+            ],
+            "services": [
+                "Gmail",
+                "Keep",
+                "Drive",
+                "Calendar"
+            ]
+        },
+        "azure_entra_id": {
+            "status": "simulated",
+            "tenant_id": "neo-iuris-tenant-001",
+            "services": [
+                "Office365",
+                "SharePoint",
+                "Teams"
+            ]
+        }
+    },
+    "access_control_lists": {
+        "unit_4_1_regulatory": [
+            "dfigueroa.juridico@gmail.com",
+            "staff.regulatory@neo-iuris.local"
+        ],
+        "unit_4_2_defense": [
+            "dfigueroa.juridico@gmail.com",
+            "partner.litigation@neo-iuris.local"
+        ],
+        "unit_4_3_forensic": [
+            "dfigueroa.juridico@gmail.com",
+            "lead.perito@neo-iuris.local"
+        ]
+    },
+    "security_policy": {
+        "mfa_enforced": true,
+        "audit_logging": true,
+        "session_timeout_minutes": 30
+    }
+}

@@ -1,0 +1,556 @@
+{
+  "project": "Neo-Iuris v8.0",
+  "owner": "Daniel Figueroa",
+  "entity": "Neo-Iuris System",
+  "timestamp_utc": "2025-12-18T10:09:54.551003+00:00",
+  "master_hash": "df150e406da05e6e394fb3cbab4d68dca17f35ad5b22f6366b770219a03c1c08",
+  "file_count": 109,
+  "legal_notice": "This cryptographic manifest serves as proof of existence for copyright registration purposes.",
+  "files": [
+    {
+      "path": "docs\\USB_AIR_GAP_PROTOCOL.md",
+      "hash": "30342a83edab2c632e9a223215773d0360f7e580ddd5c00604ab5acc306ea87d",
+      "size": 1708
+    },
+    {
+      "path": "GABINETE_V8_STITCH.md",
+      "hash": "666db756b45a37318083bb573dfbdedd372566ac7ef7a0aa677f71d64344956a",
+      "size": 9057
+    },
+    {
+      "path": "interface\\neo-iuris-ui\\.next\\server\\app\\_not-found\\page.js",
+      "hash": "73455191913edf50d58abb2b827bf564ad6b975927df9ab21a97461e7169921f",
+      "size": 56290
+    },
+    {
+      "path": "interface\\neo-iuris-ui\\.next\\server\\app\\_not-found\\page_client-reference-manifest.js",
+      "hash": "d31a036e887ae96970ca8968e815b0f495b513b43825e9fa0dab062489bdfede",
+      "size": 7655
+    },
+    {
+      "path": "interface\\neo-iuris-ui\\.next\\server\\app\\page.js",
+      "hash": "ee84cd560ceb2c8ede9eae49c866325697a682a0ec0220ab5c70c18afd5ebce7",
+      "size": 289606
+    },
+    {
+      "path": "interface\\neo-iuris-ui\\.next\\server\\app\\page_client-reference-manifest.js",
+      "hash": "871a325c976df7a34d625ba02c3f435066ed8ddea02c17dab65e5d83b3f32f72",
+      "size": 7505
+    },
+    {
+      "path": "interface\\neo-iuris-ui\\.next\\server\\interception-route-rewrite-manifest.js",
+      "hash": "5f82603b159561c8e11613b6cb06385556a2cf7279f9cbd7d4045c15c83fdff4",
+      "size": 47
+    },
+    {
+      "path": "interface\\neo-iuris-ui\\.next\\server\\middleware-build-manifest.js",
+      "hash": "c012ade05ecd7fb47890d4aaba571b111def09a4605cc7872bbea70a55f01499",
+      "size": 518
+    },
+    {
+      "path": "interface\\neo-iuris-ui\\.next\\server\\middleware-react-loadable-manifest.js",
+      "hash": "f08020a220d120faf586bb941281cbfdf28793a9d1f87d2e6035faf0a6155d78",
+      "size": 35
+    },
+    {
+      "path": "interface\\neo-iuris-ui\\.next\\server\\next-font-manifest.js",
+      "hash": "a464413ee75e1016f3e46f43acd014660ae511a62f634896d1cd75eed7a6e47d",
+      "size": 113
+    },
+    {
+      "path": "interface\\neo-iuris-ui\\.next\\server\\pages\\_app.js",
+      "hash": "8dc68aa5a9bf5612f5ab9a4dfd57f21fc6fe5603bd5395c922878b0f967b00d8",
+      "size": 1496
+    },
+    {
+      "path": "interface\\neo-iuris-ui\\.next\\server\\pages\\_document.js",
+      "hash": "9f9baf2d72034829df87f2308383387cb445052a02b225c821d469232784bf39",
+      "size": 2082
+    },
+    {
+      "path": "interface\\neo-iuris-ui\\.next\\server\\pages\\_error.js",
+      "hash": "b89d53e6382f558630942c8b6ff4bbe5ef7c15b17d85263d6d9bb6b224a10a67",
+      "size": 13955
+    },
+    {
+      "path": "interface\\neo-iuris-ui\\.next\\server\\server-reference-manifest.js",
+      "hash": "f11fb031eb8e4a9a5ba0481a9d7b9cf705e23f340c3ee3ea43abe7a875fb92c1",
+      "size": 138
+    },
+    {
+      "path": "interface\\neo-iuris-ui\\.next\\server\\vendor-chunks\\@swc.js",
+      "hash": "a2f64c33e98a3cf1643e8f91bcd804caf7124b1664dc22d4dd1949351cd81ff3",
+      "size": 19710
+    },
+    {
+      "path": "interface\\neo-iuris-ui\\.next\\server\\vendor-chunks\\next.js",
+      "hash": "342f8a68c9b65afc901656e9ac7fcf82888c07ef7675b64f18f3ace99ef0dceb",
+      "size": 2083161
+    },
+    {
+      "path": "interface\\neo-iuris-ui\\.next\\server\\webpack-runtime.js",
+      "hash": "b0610efafcaf4e88e975ebc8b78f0bb965be3f68a782b988a289788b75836912",
+      "size": 8668
+    },
+    {
+      "path": "interface\\neo-iuris-ui\\.next\\static\\chunks\\app\\_not-found\\page.js",
+      "hash": "c7b939d282d7c8e9ef961451d784ee42f964b090016f84d4f1425009a5070f6d",
+      "size": 15241
+    },
+    {
+      "path": "interface\\neo-iuris-ui\\.next\\static\\chunks\\app\\page.js",
+      "hash": "25a0c425478aa02bc03235dafbb2777a72762a13db8fe02d15226a9f59ee174b",
+      "size": 622210
+    },
+    {
+      "path": "interface\\neo-iuris-ui\\.next\\static\\chunks\\main.js",
+      "hash": "9f848b6aab3f5c81b5ab541784e1e4e851ec851bc4d9f19fe265c58933661988",
+      "size": 5010010
+    },
+    {
+      "path": "interface\\neo-iuris-ui\\.next\\static\\chunks\\pages\\_app.js",
+      "hash": "f491d69125b371da979c89ee669253b1f8fd02586f5331fef2bb7f7a2af7a1c6",
+      "size": 3391
+    },
+    {
+      "path": "interface\\neo-iuris-ui\\.next\\static\\chunks\\pages\\_error.js",
+      "hash": "511eaf2126e4489b86a3ab436904a2b78748fe26dad86b27d167af59484e53a4",
+      "size": 3387
+    },
+    {
+      "path": "interface\\neo-iuris-ui\\.next\\static\\chunks\\polyfills.js",
+      "hash": "e903cec1d59e0157bcc7e4ac883ae6f866babb60e4aa01b9485aa096b9722200",
+      "size": 91381
+    },
+    {
+      "path": "interface\\neo-iuris-ui\\.next\\static\\chunks\\react-refresh.js",
+      "hash": "ac9fb9b971ed7771c41d4791154b7ee7a9b1a7162d98336370113bf93634d33c",
+      "size": 78963
+    },
+    {
+      "path": "interface\\neo-iuris-ui\\.next\\static\\chunks\\webpack.js",
+      "hash": "50d2f98066e41e53aad20205101ddb1923ac54c8ca1827be34a13635526456c5",
+      "size": 56483
+    },
+    {
+      "path": "interface\\neo-iuris-ui\\.next\\static\\development\\_buildManifest.js",
+      "hash": "af54024673e5e364631a097c9e5f853795c771f4bac822fe6767691727ef2884",
+      "size": 235
+    },
+    {
+      "path": "interface\\neo-iuris-ui\\.next\\static\\development\\_ssgManifest.js",
+      "hash": "653f3e53e89b4f8548ff86c19e92bb3c6b84b6be7485a320b1e00893ed877479",
+      "size": 76
+    },
+    {
+      "path": "interface\\neo-iuris-ui\\.next\\static\\webpack\\app\\page.888fe68f7c4f1d5b.hot-update.js",
+      "hash": "31071217b2f09c35ce3444150922d436934cad0a40925c957de02ce673051d29",
+      "size": 12832
+    },
+    {
+      "path": "interface\\neo-iuris-ui\\.next\\static\\webpack\\webpack.888fe68f7c4f1d5b.hot-update.js",
+      "hash": "823a21d1a4f4ad4dbdfcb3422ba7669ef6e39abfd55402409d71ca6adb6575e7",
+      "size": 24493
+    },
+    {
+      "path": "interface\\neo-iuris-ui\\.next\\static\\webpack\\webpack.d63813d690c1308d.hot-update.js",
+      "hash": "66c2827422c952c3e41edc5feb39426b44ff8f6f29567490af0a393f83640426",
+      "size": 858
+    },
+    {
+      "path": "interface\\neo-iuris-ui\\.next\\types\\app\\layout.ts",
+      "hash": "7101ba0a6912a332bde25535aac39566a60a419ebc6ff1ca38a46e786ee554f1",
+      "size": 3552
+    },
+    {
+      "path": "interface\\neo-iuris-ui\\.next\\types\\app\\page.ts",
+      "hash": "933c977e0618f4fb90dffe94da2870a4147a447eabb59e23f0c2e13de6172aaf",
+      "size": 3540
+    },
+    {
+      "path": "interface\\neo-iuris-ui\\next-env.d.ts",
+      "hash": "8964d295a9047c3a222af813b7d37deb57b835fd0942d89222e7def0aed136cc",
+      "size": 206
+    },
+    {
+      "path": "interface\\neo-iuris-ui\\src\\app\\academy\\page.tsx",
+      "hash": "c4f00f825b3d6adbc83cdab2bb0c4a7e6637089b76a8bec6d72c914169a08083",
+      "size": 6096
+    },
+    {
+      "path": "interface\\neo-iuris-ui\\src\\app\\compliance\\page.tsx",
+      "hash": "55bba0809323244598b8b43932df6d9bec44c90052f2cd1e0ac6d1d0368a4fb6",
+      "size": 7892
+    },
+    {
+      "path": "interface\\neo-iuris-ui\\src\\app\\forensic\\page.tsx",
+      "hash": "3e197f279ecbda94112e149a0b8772378b230512c62897c96d4368b61e40433c",
+      "size": 8538
+    },
+    {
+      "path": "interface\\neo-iuris-ui\\src\\app\\layout.tsx",
+      "hash": "3b90ab4c83ae12c1c5f5a92850f086e39f97366daa05ab435419bf33f2c83d9f",
+      "size": 2895
+    },
+    {
+      "path": "interface\\neo-iuris-ui\\src\\app\\page.tsx",
+      "hash": "3fba9c1613b521973ac0d15b22b46310a0d14d7e47a6f41324235b1d33851934",
+      "size": 22156
+    },
+    {
+      "path": "interface\\neo-iuris-ui\\src\\app\\regulatory\\page.tsx",
+      "hash": "27849a879ea59f2b2252475846244a2b93861624bdcacad90f261671ecddbdda",
+      "size": 8548
+    },
+    {
+      "path": "interface\\neo-iuris-ui\\src\\app\\repository\\page.tsx",
+      "hash": "c2c8d168ce48d5442995120729ba257b46aae54a1bc0ec79a3314bae92945985",
+      "size": 6865
+    },
+    {
+      "path": "interface\\neo-iuris-ui\\src\\components\\StitchInterface.tsx",
+      "hash": "1249659f86de59e7d474f36f64b47e1556dcaa09aac9537710ac2d3806c8640a",
+      "size": 9070
+    },
+    {
+      "path": "interface\\neo-iuris-ui\\src\\lib\\api.ts",
+      "hash": "789a95f425e970e2b3cc01fa95d0f8dc4e4d11d9c79ba4da7a99374745b4a607",
+      "size": 1989
+    },
+    {
+      "path": "interface\\neo-iuris-ui\\tailwind.config.ts",
+      "hash": "b679ab6db88230e54acda23ffedc4b79003d36d978184678aa99ac5033853690",
+      "size": 850
+    },
+    {
+      "path": "services\\__init__.py",
+      "hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "size": 0
+    },
+    {
+      "path": "services\\agent-bridge\\android-specs\\STITCH_PROMPTS.md",
+      "hash": "996787709645240d5d00533859dd5d43dc4b086f8a10fda4708fadab7988925c",
+      "size": 1423
+    },
+    {
+      "path": "services\\agent-bridge\\extension\\src\\extension.ts",
+      "hash": "6cbb84f88b59856e712f38e3f3792d288d635d562db561d17e69b24ecaafba78",
+      "size": 2021
+    },
+    {
+      "path": "services\\agent-bridge\\extension\\src\\server.ts",
+      "hash": "00e0133b1d8b212c9de730030a0504bb894a12e346b99e98d160bf4758603c50",
+      "size": 1856
+    },
+    {
+      "path": "services\\api_gateway.py",
+      "hash": "ae023f20bb7640fc86ea92f30fd7a0ea05cdbd46df9312e1caa15bf4ac135c3c",
+      "size": 8790
+    },
+    {
+      "path": "services\\compliance-guardian\\src\\audit_logger.py",
+      "hash": "63b5ed974f3469494bffe6d7fc19cacb2c1faef4c0dee5dcdae4a00d423e7e1c",
+      "size": 1723
+    },
+    {
+      "path": "services\\core-intelligence\\src\\rag_engine.py",
+      "hash": "81af979a2a0016b63eb11f2c4c3d86540839ca5bf6815b6ec9e45a1185e28cd0",
+      "size": 1485
+    },
+    {
+      "path": "services\\edge\\forensic_onnx_export.py",
+      "hash": "2f422838fc8f1963e3201260a2a49797d50f26480335b7afa8c4bb03be78239b",
+      "size": 1701
+    },
+    {
+      "path": "services\\ingestion-jurimetrica\\src\\probe_scjn.py",
+      "hash": "5324829c59eb4fedfa8a1ba39cebc27c4c01dc1cb0bc32125bd0acbdb30739fe",
+      "size": 1746
+    },
+    {
+      "path": "services\\integrations\\electron_main.js",
+      "hash": "fb3b2b6ee4bfa4a32a7fba1e5a7a9d6aa8ad6877e891f23a259e3ddd309f5a14",
+      "size": 1479
+    },
+    {
+      "path": "services\\integrations\\office_365_addin.js",
+      "hash": "9240167ec25a333a048d6ae8ab680038ebd84adf036d1e46fe81e07f12528022",
+      "size": 1784
+    },
+    {
+      "path": "services\\ip_guardian\\__init__.py",
+      "hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "size": 0
+    },
+    {
+      "path": "services\\ip_guardian\\copyright_manager.py",
+      "hash": "37e0862cc41aa370d6870dced289678368b6366362af29a94fdcf08e5b7cd6bf",
+      "size": 3335
+    },
+    {
+      "path": "services\\laboratories\\__init__.py",
+      "hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "size": 0
+    },
+    {
+      "path": "services\\laboratories\\compliance_guardian.py",
+      "hash": "fd6f9da99a52195b97dbd4e856473f28d3f1514dfd98feb1b1ccdc6d863c1d7e",
+      "size": 1203
+    },
+    {
+      "path": "services\\laboratories\\contract_engine.py",
+      "hash": "78754ec8d382458fe67e6e055cd1c78f29625fb17d2c4a5752095bde3a985ce2",
+      "size": 2150
+    },
+    {
+      "path": "services\\laboratories\\forensic_simulator.py",
+      "hash": "f10829a99f17c9e4b6a2adbbcfb8edd60a38cc008266e44ed46bbe46db71749e",
+      "size": 4491
+    },
+    {
+      "path": "services\\laboratories\\labeling_auditor.py",
+      "hash": "7ac92645b320913ee804c36ccb906ce56df2017d834412686bdd39c54efa0f9e",
+      "size": 1723
+    },
+    {
+      "path": "services\\laboratories\\legal_translator.py",
+      "hash": "a45b132627edcd21631027fc9e6775199391f1bdcb4a29a004dd61dbb93a2b2b",
+      "size": 2451
+    },
+    {
+      "path": "services\\laboratories\\litigation_calculator.py",
+      "hash": "e2d4790c027818287e7610396ef9cd3bfbc1d94fe8b197a097baa2353f0a0acb",
+      "size": 1826
+    },
+    {
+      "path": "services\\laboratories\\pharmacovigilance_monitor.py",
+      "hash": "6d651d7bc952fd704b72319a692295c57ba615e8ee829fd1278084fccb20914a",
+      "size": 1203
+    },
+    {
+      "path": "services\\laboratories\\predictive_justice.py",
+      "hash": "29bca5ec919b647adeb1c9ad0711549d0e82b7c136fe2ea086faca01f562eb33",
+      "size": 2031
+    },
+    {
+      "path": "services\\laboratories\\smart_contract_manager.py",
+      "hash": "97231e9eedac369bb649ef78fd747db45e3e9b050e3707986c93bb85536c8daa",
+      "size": 3198
+    },
+    {
+      "path": "services\\laboratories\\tecnovigilance_monitor.py",
+      "hash": "c2af112d000801462ac5ac64370dc356795a49820b5bbd611f700f1e4a3ef251",
+      "size": 2481
+    },
+    {
+      "path": "services\\laboratories\\training_dojo.py",
+      "hash": "8d508af7edfe547ea29c54fbbf690d14ce14041380edf0508bd6a23977a73abf",
+      "size": 4275
+    },
+    {
+      "path": "services\\medical-tourism\\privacy_guardian.py",
+      "hash": "4e03d14173627421b29172da3616d53bbd5220d86a440e2439d67cb88327f476",
+      "size": 2995
+    },
+    {
+      "path": "services\\migration\\__init__.py",
+      "hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "size": 0
+    },
+    {
+      "path": "services\\migration\\json_exporter.py",
+      "hash": "1dc002a82c3ee35165c1c05117d12c0df9af6e1fb19e661c527db7cfc882cd36",
+      "size": 2043
+    },
+    {
+      "path": "services\\pan-heuristic-state\\bioethics\\bioethics_filter.py",
+      "hash": "f2bfc796bd622c8601b8d3ef392060603ce89a69f0f662a81be53f83bde1d6e8",
+      "size": 1612
+    },
+    {
+      "path": "services\\pan-heuristic-state\\core\\cifras_negras.py",
+      "hash": "5599d70f202d0b4ddfc239b5fba54b5406c0802009976cfe4b98d9e50aeb332b",
+      "size": 2232
+    },
+    {
+      "path": "services\\pan-heuristic-state\\ingestion\\banxico_pulse.py",
+      "hash": "5ad78255fa73f7ccc9cc3b2415b2ccad7ce3bb784bb4e45fe6c44a6ff9cbb830",
+      "size": 822
+    },
+    {
+      "path": "services\\pan-heuristic-state\\ingestion\\cofepris_scraper.py",
+      "hash": "bd830d09e9f54695edd0656b387c5849ed0c5c48ecf14531e9b82f03fe9b2dda",
+      "size": 811
+    },
+    {
+      "path": "services\\pan-heuristic-state\\ingestion\\inegi_vision.py",
+      "hash": "198914fca669800506d7776e4b2b1db673fdec3f1bdf1e569f63a86361084c5b",
+      "size": 825
+    },
+    {
+      "path": "services\\prompt-maestro\\knowledge_base\\rhel8_security.md",
+      "hash": "4a2af57cf38fe239525b69d2de5d41a813f33123d900f7d0a44fb7860714c69f",
+      "size": 1129
+    },
+    {
+      "path": "services\\prompt-maestro\\knowledge_base\\sanitary_strategy.md",
+      "hash": "fccbd0e665a67f9efa871799eae620b99c678f87006fa6fadf48d878df3c7e3a",
+      "size": 816
+    },
+    {
+      "path": "services\\prompt-maestro\\reports\\digital_ecosystem_architecture.md",
+      "hash": "81e572aba2617d873e4fed9d482f51954c4356f2e0781c14d24731e1992796f8",
+      "size": 2456
+    },
+    {
+      "path": "services\\prompt-maestro\\reports\\digital_value_chain_matrix.md",
+      "hash": "36cad45b530f3c6b150955b44b4c87877144762e39145926ab0ae09cab655667",
+      "size": 2947
+    },
+    {
+      "path": "services\\prompt-maestro\\reports\\executive_pragmatic_report_2025.md",
+      "hash": "fb8aa9efbca775477d30330c1c1b98248329c5aecc3dc1790bdf99c04d4d67ae",
+      "size": 4933
+    },
+    {
+      "path": "services\\prompt-maestro\\reports\\hyper_integration_architecture.md",
+      "hash": "30ea85e23e3390acc6ffadf769c29fd66806afe77d6075392e16b4f29ecb2ed4",
+      "size": 1996
+    },
+    {
+      "path": "services\\prompt-maestro\\reports\\laboratory_proposal.md",
+      "hash": "283deeb2054ace500335049bd1b44b32721282f02d17dd51b15d2b377f7b8b85",
+      "size": 3483
+    },
+    {
+      "path": "services\\prompt-maestro\\reports\\methodological_projection_2026.md",
+      "hash": "c085a3914799e9ede697a9dc7ad60b5bb4c04565186d57d67fcb3b046f7faee4",
+      "size": 3634
+    },
+    {
+      "path": "services\\prompt-maestro\\reports\\service_catalog_integration_report.md",
+      "hash": "5d78b0caee59a0bdc0883f46293c9c8fefb046cd498826d1a1a0d28bca3be81b",
+      "size": 2668
+    },
+    {
+      "path": "services\\prompt-maestro\\src\\gap_analysis_tool.py",
+      "hash": "8ef777aeea4f6ef23ae7500050377f473dc2c45f8d41ff1e714c76ddf52c8384",
+      "size": 1777
+    },
+    {
+      "path": "services\\prompt-maestro\\src\\maestro_engine.py",
+      "hash": "621f0d01502e8d4b1b8733437e1e757464937722d65cb23b4945bde093cf0873",
+      "size": 1387
+    },
+    {
+      "path": "services\\regulatory\\digipris_rpa.py",
+      "hash": "10e584a6c73778b2a4cf641949687990008115b0984572b92926fe72c3810722",
+      "size": 2934
+    },
+    {
+      "path": "services\\repository\\__init__.py",
+      "hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "size": 0
+    },
+    {
+      "path": "services\\repository\\universal_librarian.py",
+      "hash": "894edbf1b2ba74e3fdfe4af3ba4ad5d272abbed306ecac7b14e46559a33963f5",
+      "size": 4976
+    },
+    {
+      "path": "services\\sanitary-engineering\\iso_audit_tool.py",
+      "hash": "ecb29727f562588ff774e7d47c0d423e24128346e2f02a35efcce85cc7b9b0f3",
+      "size": 2252
+    },
+    {
+      "path": "services\\strategic-virtualization\\src\\openvino_accelerator.py",
+      "hash": "6ef03f0b1bf439c915d171931ff38c49db70a69fb97f271816354a597cbf305b",
+      "size": 2457
+    },
+    {
+      "path": "services\\supremacy\\__init__.py",
+      "hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "size": 0
+    },
+    {
+      "path": "services\\supremacy\\JurisdictionManager.py",
+      "hash": "e48a70f47bfca8af093f66a4dd0745a9832b9fb39c0ff663648920d8729e7b9a",
+      "size": 2568
+    },
+    {
+      "path": "services\\supremacy\\LedgerAnchor.py",
+      "hash": "25ae6cf04997f4f3773dfa5b9c2a55ba28845ac26b8c1177e80ea3bce29f349e",
+      "size": 1479
+    },
+    {
+      "path": "services\\supremacy\\QuantumShield.py",
+      "hash": "b3326478ab1eee52d190018a16a25fd7db9857372d88ff8d89a7a1e148168adf",
+      "size": 1599
+    },
+    {
+      "path": "services\\tecpatl-gravity\\global_connectors\\brasil_open_finance.py",
+      "hash": "5c3eaaeddcab80a8f2ed9d8136ad878db36e576eb40f7f5f98be9619767ba5f1",
+      "size": 1022
+    },
+    {
+      "path": "services\\tecpatl-gravity\\global_connectors\\china_nbs.py",
+      "hash": "207208163c659a1f955d4fc6b106fa9783cd5951bb919d90167ae7cc8ff82e4e",
+      "size": 1211
+    },
+    {
+      "path": "services\\tecpatl-gravity\\global_connectors\\mexico_datamexico.py",
+      "hash": "8547e93319ed46bc070cb3d52995b95a914cfbd078949744b690692d567e398a",
+      "size": 1038
+    },
+    {
+      "path": "services\\tecpatl-gravity\\global_connectors\\russia_gostech_proxy.py",
+      "hash": "48c343eb95cf4cf652ea99fb88649eee8e43a181e937640ced2fec73f0e7eb41",
+      "size": 979
+    },
+    {
+      "path": "services\\tecpatl-gravity\\global_connectors\\usa_data_gov.py",
+      "hash": "d6a1c577ff9a486904647318206459372b3df08ccac5d24d2abf3254e361485e",
+      "size": 989
+    },
+    {
+      "path": "services\\tecpatl-gravity\\src\\ai_nexus.py",
+      "hash": "16f81dd8453f7f303cab9c07a3ea4cf14a185381978836580865c7236aac5428",
+      "size": 1379
+    },
+    {
+      "path": "services\\tecpatl-gravity\\src\\bio_informatics.py",
+      "hash": "12eb86b1980bac9d98c580547e5326f9169b5e8f18615ce718ca725f5ddd106e",
+      "size": 813
+    },
+    {
+      "path": "services\\tecpatl-gravity\\src\\global_data.py",
+      "hash": "0b45252675578e921bed4787c5dfdbf849e915712ab390efd720ea5503861e2d",
+      "size": 846
+    },
+    {
+      "path": "services\\transparency\\official_validator.py",
+      "hash": "76f0e3e2bf8e34b272b0b467f0b21824cfa9be45f3c83a1cd58b46ab37106fb3",
+      "size": 3222
+    },
+    {
+      "path": "services\\universal-librarian\\api\\api_gateway.py",
+      "hash": "9a106743ce6df98e60e7c33cdb9bd58cbb32a8bb9cb346927e8ac46253edd51d",
+      "size": 864
+    },
+    {
+      "path": "services\\universal-librarian\\src\\librarian_core.py",
+      "hash": "6a54a1453633f52a0cc0da9ea8081634c58c21f525c666da7ee9585cc3b51fb5",
+      "size": 1376
+    },
+    {
+      "path": "services\\universal-librarian\\src\\shelf_manager.py",
+      "hash": "3491d9616d70d654fd832e0e9c49495ed824346d3e7fb3d91f31f5a85b6aa695",
+      "size": 1390
+    },
+    {
+      "path": "tests\\system_integrity_runner.py",
+      "hash": "81e300e2d5b61f4ec40a74352826eab572f72057515875cbe0cd9d9ed0578bb4",
+      "size": 7636
+    }
+  ]
+}
