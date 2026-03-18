@@ -1,3 +1,5 @@
-﻿node_modules/
+node_modules/
 
 finish-repair.ps1
+.credentials/
+*credentials*.json

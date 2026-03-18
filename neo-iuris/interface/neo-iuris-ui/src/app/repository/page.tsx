@@ -99,10 +99,10 @@ export default function RepositoryPage() {
                                                 {getIcon(file.category)}
                                             </div>
                                             <div className="opacity-0 group-hover:opacity-100 transition-opacity flex gap-1">
-                                                <a href={`http://localhost:8000${file.download_url}`} target="_blank" className="p-1 hover:bg-white/10 rounded text-slate-400 hover:text-white">
+                                                <a href={`http://localhost:8000${file.download_url}`} target="_blank" aria-label={`Download ${file.name}`} className="p-1 hover:bg-white/10 rounded text-slate-400 hover:text-white">
                                                     <Download className="w-4 h-4" />
                                                 </a>
-                                                <button className="p-1 hover:bg-white/10 rounded text-slate-400 hover:text-white">
+                                                <button aria-label={`Preview ${file.name}`} className="p-1 hover:bg-white/10 rounded text-slate-400 hover:text-white">
                                                     <Eye className="w-4 h-4" />
                                                 </button>
                                             </div>

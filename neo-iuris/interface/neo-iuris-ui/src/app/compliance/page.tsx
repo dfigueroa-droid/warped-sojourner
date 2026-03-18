@@ -43,8 +43,9 @@ export default function CompliancePage() {
 
                         <div className="space-y-4">
                             <div>
-                                <label className="block text-xs text-slate-500 mb-1">Target Facility</label>
+                                <label htmlFor="facility-input" className="block text-xs text-slate-500 mb-1">Target Facility</label>
                                 <input
+                                    id="facility-input"
                                     type="text"
                                     className="w-full bg-black/40 border border-white/10 rounded-lg p-3 text-sm"
                                     value={facility}
@@ -52,8 +53,9 @@ export default function CompliancePage() {
                                 />
                             </div>
                             <div>
-                                <label className="block text-xs text-slate-500 mb-1">Standard</label>
+                                <label htmlFor="standard-select" className="block text-xs text-slate-500 mb-1">Standard</label>
                                 <select
+                                    id="standard-select"
                                     className="w-full bg-black/40 border border-white/10 rounded-lg p-3 text-sm"
                                     value={standard}
                                     onChange={e => setStandard(e.target.value)}

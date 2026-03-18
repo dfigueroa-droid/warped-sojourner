@@ -47,6 +47,7 @@ export default function ForensicPage() {
                                 <h2 className="text-xl font-bold">Evidence Processor (Chain of Custody)</h2>
                             </div>
                             <select
+                                aria-label="Select Crime Type"
                                 value={crimeType}
                                 onChange={(e) => setCrimeType(e.target.value)}
                                 className="bg-black/40 border border-white/10 rounded px-3 py-1 text-xs text-emerald-400 font-mono focus:outline-none"
