@@ -111,7 +111,7 @@ export default function CompliancePage() {
                                     <AlertTriangle className="w-4 h-4" /> Action Items
                                 </h4>
                                 <ul className="list-disc list-inside text-sm text-slate-300 space-y-1">
-                                    <li>Update "Manifesto de Impacto Ambiental" (Expired 2 days ago).</li>
+                                    <li>Update &quot;Manifesto de Impacto Ambiental&quot; (Expired 2 days ago).</li>
                                     <li>Recalibrate Water Sensors in Sector 7.</li>
                                 </ul>
                             </div>

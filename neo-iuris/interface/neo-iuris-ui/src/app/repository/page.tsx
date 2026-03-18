@@ -11,20 +11,20 @@ export default function RepositoryPage() {
     const [uploading, setUploading] = useState(false);
 
     useEffect(() => {
-        loadFiles();
+        const fetchFiles = async () => {
+            const res = await listFiles(category || undefined);
+            setFiles(res);
+        };
+        fetchFiles();
     }, [category]);
-
-    const loadFiles = async () => {
-        const res = await listFiles(category || undefined);
-        setFiles(res);
-    };
 
     const handleUpload = async (e: React.ChangeEvent<HTMLInputElement>) => {
         if (!e.target.files?.[0]) return;
         setUploading(true);
         try {
             await uploadFile(e.target.files[0]);
-            await loadFiles();
+            const res = await listFiles(category || undefined);
+            setFiles(res);
         } catch (err) {
             console.error(err);
         }

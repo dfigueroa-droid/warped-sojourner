@@ -1,7 +1,7 @@
 import os
 import sys
 import json
-from google.oauth2 import service_account
+from google.oauth2 import service_account  # type: ignore
 
 # Obtener la ruta base del proyecto
 PROJECT_ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
@@ -61,8 +61,8 @@ def autenticar_42crunch():
                              datos_settings = json.loads(content)
                 
                 # Inyectar
-                datos_settings["42crunch.api.token"] = token
-                datos_settings["42crunch.api.platform"] = "https://platform.42crunch.com"
+                datos_settings["42crunch.api.token"] = token  # type: ignore
+                datos_settings["42crunch.api.platform"] = "https://platform.42crunch.com"  # type: ignore
                 
                 with open(settings_path, 'w', encoding='utf-8') as s:
                     json.dump(datos_settings, s, indent=4)
